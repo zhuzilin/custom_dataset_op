@@ -1,5 +1,5 @@
 # custom dataset op
-This repo is an example on how to create custom dataset op in tensorflow, so that an extention on `tf.data` may not need to recompile the whole codebase.
+This repo is an example on how to create custom dataset op in tensorflow, so that an extention on `tf.data` may not need to recompile the whole codebase. The code is tested for v1.15.0.
 
 To make it as simple as possible, we created an `IdentityDatasetOp`, which behaves as an `IdentityOp` but is implemented with the dataset interface tensorflow requires.
 
